@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC:Survey Form</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/ios/2x/key-security.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+        </div>
+
+        <div class="form-group">
+
+            <form id="survey-form" action="">
+
+                <div class="label-style">
+
+                    <label for="name">Name</label>
+                </div>
+                <div class="input-style">
+                    <input type="text" name="" id="name-label" placeholder="Enter Your Name" required>
+                </div>
+                <div class="label-style">
+
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-style">
+                    <input type="email" id="email-label" placeholder="Enter Your Email" required>
+                </div>
+                <div class="label-style">
+
+                    <label for="age">Age(Optional)</label>
+                </div>
+                <div class="input-style">
+                    <input type="number" id="number-label" min=10 max=100 placeholder="Age" required>
+                </div>
+                <!-- ////////////Optgroup part for selection///////// -->
+                <div class="label-style">
+
+                    <label for="dropdown">Which option best describes your current role? </label>
+                </div>
+                <div class="input-style">
+
+                    <select name="" id="dropdown">
+                        <optgroup label="Select current role">
+                            <option value="student">Student</option>
+                            <option value="Full Time Job">Full Time JOB</option>
+                            <option value="Full Time Learner">Full Time Learner</option>
+                            <option value="Prefer not to say">Prefer not to say</option>
+                            <option value="Other">Other</option>
+                        </optgroup>
+                    </select>
+
+
+                </div>
+                <!-- ////////////Optgroup part for selection///////// -->
+
+                <!-- /////////////Radio button part /////////////// -->
+                <div class="label-style">
+                    <label for="radio-btn">would you recommend freeCodeCamp to a friend?</label>
+                </div>
+
+                <div class="input-style">
+                    <input type="radio" name="radio"> <span>Definitely</span>
+                </div>
+                <div class="input-style">
+                    <input type="radio" name="radio"> <span> May be</span>
+                </div>
+                <div class="input-style">
+                    <input type="radio" name="radio"> <span>Not sure</span>
+                </div>
+                <!-- /////////////Radio button part /////////////// -->
+
+
+                <!-- ////////////Optgroup part for selection///////// -->
+                <div class="label-style">
+                    <label for="select">What is your favorite feature of freeCodeCamp?</label>
+                </div>
+
+                <div>
+    
+                    <select name="" id="">
+                        <optgroup label="Select an Option">
+                            <option value="Challenges">Challenges</option>
+                            <option value="Challenges">Projects</option>
+                            <option value="Challenges">Community</option>
+                            <option value="Challenges">Open source</option>
+                        </optgroup>
+
+                    </select>
+
+                    </datalist>
+
+                </div>
+                <!-- ////////////Optgroup part for selection///////// -->
+
+
+                <!-- /////////Checkbox part ////////////// -->
+                <div>
+                    <div class="label-style"><label for="checklist">What would you like to see improved? (Check all that
+                            apply)</label>
+                    </div>
+
+                    <div class="input-style">
+                        <input type="checkbox" value="1"> <span>Front-end Projects</span>
+                    </div>
+                    <div class="input-style">
+                        <input type="checkbox" value="2"> <span>Back-end Projects</span>
+                    </div>
+                    <div class="input-style">
+                        <input type="checkbox" value="3"> <span>Data Visualization</span>
+                    </div>
+                    <div class="input-style">
+                        <input type="checkbox" value="4"> <span>Challenges</span>
+                    </div>
+                    <div class="input-style">
+                        <input type="checkbox" value="5"> <span> Open Source Community</span>
+                    </div>
+                    <div class="input-style">
+                        <input type="checkbox" value="6"> <span>Gitter help rooms</span>
+                    </div>
+                    <div class="input-style">
+                        <input type="checkbox" value="7"> <span>Videos</span>
+                    </div>
+                    <div class="input-style">
+                        <input type="checkbox" value="8"> <span> City Meetups</span>
+                    </div>
+                    <div class="input-style">
+                        <input type="checkbox" value="9"> <span>Wiki</span>
+                    </div>
+                    <div class="input-style">
+                        <input type="checkbox" value="10"> <span>Forum</span>
+                    </div>
+                    <div class="input-style">
+                        <input type="checkbox" value="11"> <span>Additional Courses</span>
+                    </div>
+
+
+
+                    <!-- /////////Checklist part End////////////// -->
+
+
+
+                    <!-- //////Textarea part  start /////// -->
+
+                    <div class="label-style"> <label for="textarea">Any comments or suggestions?</label></div>
+
+                    <div class="input-style">
+
+                        <textarea name="" id="" cols="50" rows="8" placeholder="Enter your comment here..."></textarea>
+                    </div>
+
+
+                    <!-- //////Textarea part  end /////// -->
+
+
+                    <!-- //submit button// -->
+                    <div class="input-style">
+                        <input type="submit" value="Submit">
+                    </div>
+
+
+                    <!-- //submit button// -->
+
+
+
+                </div>
+            </form>
+        </div>
+
+       
+
+    </div>
+</body>
+
+</html>
